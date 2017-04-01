@@ -5,7 +5,7 @@ A server-based program that is able to determine whether or not a client visitin
 - `wget https://github.com/palmercluff/tor-checker/archive/master.zip`
 - `apt-get install unzip`
 - `unzip master.zip`
-- `cd master.zip`
+- `cd tor-checker-master`
 - `sh unpack.sh`
 
 # Now go to your `/var/www/html/` directory, and run the following:
