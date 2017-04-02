@@ -9,7 +9,6 @@ A server-based program that is able to determine whether or not a client visitin
   - `sh unpack.sh`
 
 - Now go to your `/var/www/html/` directory, and run the following:
-  - `sh get_exit_addresses.sh`
-  - `python set_exit_addresses.py`
+  - `sh tor-checker.sh`
 
 - Then in your web browser, navigate to <your-website>/tor_checker.php
