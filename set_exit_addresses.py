@@ -1,6 +1,6 @@
 import re
 
-read_filename = open('exit-addresses', 'r')
+read_filename = open('/var/www/html/exit-addresses', 'r')
 
 lines = []
 
@@ -8,7 +8,7 @@ for line in read_filename:
     lines.append(line)
 
 pat = re.compile("^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$")
-write_filename = open('ip_addresses', 'w')
+write_filename = open('/var/www/html/ip_addresses', 'w')
 
 for line in lines:
     words = line.split()
