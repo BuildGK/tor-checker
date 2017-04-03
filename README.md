@@ -13,4 +13,4 @@ Note that at this time, Apache2 and PHP5 are the supported web server technologi
 - Now go to your `/var/www/html/` directory, and run the following:
   - `sh tor-checker.sh`
 
-- Then in your web browser, navigate to <your-website>/tor_checker.php
+- And you are good to go!
