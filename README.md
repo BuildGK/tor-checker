@@ -1,5 +1,5 @@
 # tor-checker
-A server-based (LAMP) solution that is able to determine whether or not a client visiting your website is on the Tor browser. This application may be useful if you are wanting to block Tor users from accessing the core of your website or web application. Tor ruins web analytics because the Tor network bounces users across the globe therfore making analytics less acurate. Although this solution is not foolproof, it is a good addition to incoorporate into your website or web application.
+A server-based (LAMP) solution that is able to determine whether or not a client visiting your website is on the Tor browser. This application may be useful if you are wanting to block Tor users from accessing the core of your website or web application. Tor ruins web analytics because the Tor network bounces users across the globe therfore making analytics less accurate because the end-user may not reside where they "appear" to be. Although this solution is not foolproof, it is a good addition to incoorporate into your website or web application.
 
 Note that at this time, Apache2 and PHP5 are the supported web server technologies and shell (sh) and Python are the supported local scripts. Others are invited to improve and extend this project.
 
