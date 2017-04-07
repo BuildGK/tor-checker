@@ -10,7 +10,4 @@ Note that at this time, Apache2 and PHP5 are the supported web server technologi
   - `cd tor-checker-master`
   - `sh unpack.sh`
 
-- Now go to your `/var/www/html/` directory, and run the following:
-  - `sh tor-checker.sh`
-
 - And you are good to go!
