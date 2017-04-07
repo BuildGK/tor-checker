@@ -38,5 +38,5 @@ Paste this PHP code anywhere where you want to check if the user is using Tor.
          // Do whatever you want here if they are not on the Tor network
          header('Location: index.html');
        }
-    ?>
+?>
 ```
