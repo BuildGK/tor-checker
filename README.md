@@ -3,7 +3,7 @@ A server-based (LAMP) solution that is able to determine whether or not a client
 
 Note that at this time, Apache2 and PHP5 are the supported web server technologies and shell (sh) and Python are the supported local scripts. Others are invited to improve and extend this project.
 
-- To put on your server, run the following on your Debian (or similar) web server:
+- To put on your server, run the following on your Debian (or similar) web server as root:
   - `wget https://github.com/palmercluff/tor-checker/archive/master.zip`
   - `apt-get install unzip`
   - `unzip master.zip`
@@ -12,7 +12,7 @@ Note that at this time, Apache2 and PHP5 are the supported web server technologi
 
 - And you are good to go!
 
-Paste this PHP code anywhere where you want to check if the user is using Tor.
+Paste this PHP code anywhere where you want to check if the user is using Tor. To test, visit the `tor_checker.php` page with a normal browser and the Tor browser.
 
 ```
 <?php
